@@ -1,0 +1,80 @@
+body{
+    background-color: lightgrey;
+    font-family: 'Advent Pro', sans-serif;
+}
+.cards{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    margin: 20px;
+}
+.leftCard{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 300px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 40px;
+    margin-top: 40px;   
+}
+
+.middleCard{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 350px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 40px;
+    margin-top: 80px;  
+}
+
+.rightCard{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 350px;
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 40px;
+    margin-top: 120px;   
+}
+.personal{
+    height: 150px;
+    width: auto;
+}
+    
+.middle{
+    height: 150px;
+    width: auto;
+}
+.business{
+    height: 150px;
+    width: auto;
+}
+.words{
+    display: flex;
+    padding: 30px;
+  
+}
+h1{
+    font-size: 30px;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 10px;
+}
+p{
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    color: grey;
+}
+img{
+    border: 5px solid gray;
+    border-radius: 50%;
+}
